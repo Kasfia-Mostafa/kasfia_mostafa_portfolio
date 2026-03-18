@@ -1,0 +1,12 @@
+<svg width="243" height="135" viewBox="0 0 243 135" xmlns="http://www.w3.org/2000/svg">
+  <g id="K">
+    <polygon points="4,4 120,4 62,67.5" fill="#FFD542"/>
+    <polygon points="4,131 120,131 62,67.5" fill="#F8318D"/>
+    <polygon points="4,4 4,131 62,67.5" fill="#F8318D"/>
+  </g>
+
+  <g id="M" transform="translate(122, 0)">
+    <polygon points="0,131 44,4 88,131" fill="#FFD542"/>
+    <polygon points="33,131 77,4 121,131" fill="#F8318D" fill-opacity="0.85"/>
+  </g>
+</svg>

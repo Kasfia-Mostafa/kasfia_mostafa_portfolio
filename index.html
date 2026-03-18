@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/km-svg.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasfia Mostafa</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <svg style="display: none;">
+      <defs>
+        <filter id="halftone-filter">
+          <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" result="noise" />
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" />
+        </filter>
+      </defs>
+    </svg>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
