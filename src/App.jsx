@@ -923,7 +923,7 @@ function App() {
                 </div>
 
                 <div className="stamp-row">
-                  <a href="/Kasfia_Mostafa.pdf" className="Documents-btn">
+                  <a href="https://drive.google.com/file/d/17mRTodF-NERYpsUUjDlRahMG19Lhz5ty/view?usp=sharing" className="Documents-btn">
                     <span className="folderContainer" aria-hidden="true">
                       <svg
                         className="fileBack"
