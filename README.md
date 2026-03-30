@@ -2,8 +2,8 @@
 
 A newspaper-style personal portfolio built with React and Vite, featuring animated section reveals, project highlights, research publications, certifications, and contact channels.
 
-LINK 1: [https://kasfiamostafa.vercel.app/](https://www.kasfiamostafa.tech/)
-LINK 2: [https://kasfiamostafa.vercel.app/](https://kasfiamostafa.vercel.app/)
+- LINK 1: [https://kasfiamostafa.tech/](https://www.kasfiamostafa.tech/)
+- LINK 2: [https://kasfiamostafa.vercel.app/](https://kasfiamostafa.vercel.app/)
 
 ## Live Experience
 
