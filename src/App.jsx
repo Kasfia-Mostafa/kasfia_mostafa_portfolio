@@ -101,9 +101,22 @@ const projects = [
     hasCircle: true,
   },
   {
+    title: "Beautify - E-commerce platform for skincare and beauty products",
+    subtitle: "Immersive product browsing with multi-role ecosystem",
+    stacks: "React, Node.js, Express.js, MongoDB, Tailwind CSS",
+    description:
+      "Beautify is a modern e-commerce platform for transformative skincare and beauty products, featuring a full-featured admin dashboard, blog, and user management system. Built with the MERN stack, the platform facilitates interactions between buyers, sellers, and administrators.",
+    edition: "Beauty Tech Bulletin",
+    stamp: "Top Story",
+    github: "https://github.com/Kasfia-Mostafa/Beautify",
+    live: "",
+    thumb: "https://i.ibb.co.com/VFgcgdg/beautify.png",
+    hasCircle: true,
+  },
+  {
     title: "Hirrd - Job Post and Hiring Website",
     subtitle: "MERN hiring workflow with secure role-based operations",
-    stacks: "React, Node.js, Express.js, MongoDB, JWT",
+    stacks: "React, Node.js, Express.js, Superbase, JWT",
     description:
       "A full-stack MERN web application with responsive React frontend, secure Node.js/Express REST APIs, MongoDB persistence, authentication, and complete CRUD-based recruitment workflows.",
     edition: "Career Tech Bulletin",
@@ -114,19 +127,18 @@ const projects = [
     size: "quarter",
     hasCircle: false,
   },
+
   {
-    title: "Mi Casa - Real Estate Website",
-    subtitle: "Immersive property browsing with multi-role ecosystem",
-    stacks: "React, Node.js, Express.js, MongoDB, GSAP",
+    title: "Astro Learn - Online Learning Platform",
+    subtitle: "Immersive learning experience ecosystem",
+    stacks: "React, Node.js, Express.js, MongoDB, Tailwind CSS",
     description:
-      "A sophisticated full-stack real estate application that revolutionizes property browsing with immersive animations and a multi-role ecosystem. Built with the MERN stack, the platform facilitates interactions between buyers, agents, and administrators.",
-    edition: "Property Desk",
+      "A modern, responsive online learning platform built with React, Vite, and Tailwind CSS. Astro Learn provides an intuitive interface for discovering and exploring courses across various categories.",
+    edition: "Education Tech Bulletin",
     stamp: "Top Story",
-    github: "https://github.com/Kasfia-Mostafa/mi-casa",
-    live: "https://github.com/Kasfia-Mostafa/mi-casa",
-    thumb:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
-    size: "quarter",
+    github: "https://github.com/Kasfia-Mostafa/Astro_Learn",
+    live: "https://astro-learn-sigma.vercel.app/",
+    thumb: "https://i.ibb.co.com/zWtrMZB3/astro.png",
     hasCircle: true,
   },
 ];
@@ -923,7 +935,10 @@ function App() {
                 </div>
 
                 <div className="stamp-row">
-                  <a href="https://drive.google.com/file/d/17mRTodF-NERYpsUUjDlRahMG19Lhz5ty/view?usp=sharing" className="Documents-btn">
+                  <a
+                    href="https://drive.google.com/file/d/190Li3cN7m-tOTGblSmtx_RLWuKbYhnvs/view?usp=sharing"
+                    className="Documents-btn"
+                  >
                     <span className="folderContainer" aria-hidden="true">
                       <svg
                         className="fileBack"
@@ -1032,9 +1047,9 @@ function App() {
                   }}
                 >
                   I&apos;m a web developer specializing in building full-stack
-                  web applications. Proficient in Nextjs, React, MongoDB, Express.js,
-                  and Node.js to create dynamic, scalable, and user-friendly
-                  solutions.
+                  web applications. Proficient in Nextjs, React, MongoDB,
+                  Express.js, and Node.js to create dynamic, scalable, and
+                  user-friendly solutions.
                 </p>
                 <p
                   style={{
@@ -1337,7 +1352,7 @@ function App() {
                 <div className="press-pass">
                   <div className="press-pass__copy">
                     <p className="board-label">Official Press Credentials</p>
-                    <a href="/Kasfia_Mostafa.pdf" className="release-sheet">
+                    <a href="/src/assets/Kasfia_Mostafa.pdf" className="release-sheet">
                       <DocIcon />
                       FOR IMMEDIATE RELEASE: DOWNLOAD RESUME
                     </a>
