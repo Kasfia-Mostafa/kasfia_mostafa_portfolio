@@ -87,11 +87,11 @@ const educationStories = [
 
 const projects = [
   {
-    title: "CarePulse - Healthcare Platform",
+    title: "MediMeet - Healthcare Platform",
     subtitle: "Patient registration and appointment lifecycle management",
-    stacks: "Next.js, TypeScript, Appwrite, Twilio, Tailwind CSS",
+    stacks: "React, Tailwind CSS Node.js, Express.js, Mongodb",
     description:
-      "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.",
+      "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with Email notifications, all built using MERN Stack",
     edition: "HealthTech Feature",
     stamp: "Featured",
     github: "https://github.com/Kasfia-Mostafa/CarePulse",
@@ -109,16 +109,16 @@ const projects = [
     edition: "Beauty Tech Bulletin",
     stamp: "Top Story",
     github: "https://github.com/Kasfia-Mostafa/Beautify",
-    live: "",
+    live: "https://beautify-nine.vercel.app/",
     thumb: "https://i.ibb.co.com/VFgcgdg/beautify.png",
     hasCircle: true,
   },
   {
     title: "Hirrd - Job Post and Hiring Website",
-    subtitle: "MERN hiring workflow with secure role-based operations",
-    stacks: "React, Node.js, Express.js, Superbase, JWT",
+    subtitle: "NEXTJS hiring workflow with secure role-based operations",
+    stacks: "Next.js, Node.js, Express.js, Superbase, JWT",
     description:
-      "A full-stack MERN web application with responsive React frontend, secure Node.js/Express REST APIs, MongoDB persistence, authentication, and complete CRUD-based recruitment workflows.",
+      "A full-stack NEXTJS web application with responsive Next.js frontend, secure Node.js/Express REST APIs, MongoDB persistence, authentication, and complete CRUD-based recruitment workflows.",
     edition: "Career Tech Bulletin",
     stamp: "Press Pick",
     github: "https://github.com/Kasfia-Mostafa/Hirrd",
