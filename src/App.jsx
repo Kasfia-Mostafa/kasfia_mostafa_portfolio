@@ -96,7 +96,7 @@ const projects = [
     stamp: "Featured",
     github: "https://github.com/Kasfia-Mostafa/CarePulse",
     live: "https://care-pulse-one.vercel.app/",
-    thumb: "https://i.ibb.co.com/ZpHqv2kD/care.png",
+    thumb: "https://i.ibb.co.com/KxRL963x/Screenshot-2026-06-12-172542.png",
     size: "fullpage",
     hasCircle: true,
   },
