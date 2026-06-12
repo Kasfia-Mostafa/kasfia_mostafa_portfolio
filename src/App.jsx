@@ -15,6 +15,9 @@ import {
 } from "react-icons/si";
 import "./App.css";
 import resumePdf from "./assets/Kasfia_Mostafa.pdf";
+import { projects, projectImageFallback } from "./data/projects";
+import { experiences, educationStories } from "./data/experiences";
+import { certificates, researchPapers } from "./data/credentials";
 
 
 const deskSignals = [
@@ -40,163 +43,6 @@ const deskSignals = [
   },
 ];
 
-const experiences = [
-  {
-    company: "Lhasa Technology Studios (Remote, Texas)",
-    role: "Web Developer",
-    period: "04/2026 - Present",
-    appointmentLetter:
-      "https://drive.google.com/file/d/REPLACE_WITH_LHASA_APPOINTMENT_LETTER/view",
-    description:
-      "Built and deployed interactive user interfaces using the React ecosystem. Utilized React Router for better client-side navigation and optimized page transitions. Debugged frontend issues using DevTools and implemented unit testing for core components. Maintained version control via GitHub, participating in code reviews and agile workflows.",
-    quote:
-      "Frontend excellence through iterative practice and careful engineering.",
-  },
-  {
-    company: "SoftVerse Group (Onsite, Dhaka)",
-    role: "MERN Full Stack Developer Intern",
-    period: "02/2026 - 05/2026",
-    appointmentLetter:
-      "https://drive.google.com/file/d/13xAO-BzfGDYiUjBnP79JIWR5dbjatfJv/view?usp=sharing",
-    description:
-      "Developed and maintained full-stack web applications using MERN stack. Built responsive front-end components with React and managed state efficiently to improve user experience. Collaborated with the development team to debug issues and optimize application performance.",
-    quote: "Shipped full-stack features with stable API-to-UI integration.",
-  },
-  {
-    company: "Solution Hub Technologies (Remote, Dhaka)",
-    role: "Analytics Assistant",
-    period: "04/2025 - 06/2025",
-    appointmentLetter:
-      "https://drive.google.com/file/d/1OjzWqr9oUafSML7COMSp2hg1rQ89Kzfk/view?usp=sharing",
-    description:
-      "Managed daily employee attendance and task records. Monitored work activities and ensured task completion. Identified and reported violations or irregularities in performance to drive accountability.",
-    quote: "Data discipline improved team execution quality.",
-  },
-];
-
-const educationStories = [
-  {
-    title: "Bachelor of Computer Science and Engineering",
-    dateline: "DHAKA, BANGLADESH (2022 - 2026)",
-    body: "Currently pursuing Bachelor of Computer Science and Engineering (BCSE) at International University of Business Agriculture and Technology (IUBAT).",
-  },
-  {
-    title: "Higher Secondary & Secondary School Certificate",
-    dateline: "DHAKA, BANGLADESH (2017 - 2021)",
-    body: "Accomplished the Secondary School Certificate (SSC - 2019) and Higher Secondary School Certificate (HSC- 2021) from the esteemed Uttara High School and College, Dhaka. And specializing in the Science Group.",
-  },
-];
-
-const projects = [
-  {
-    title: "MediMeet - Healthcare Platform",
-    subtitle: "Patient registration and appointment lifecycle management",
-    stacks: "React, Tailwind CSS, Node.js, Express.js, Mongodb",
-    description:
-      "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with Email notifications, all built using MERN Stack",
-    edition: "HealthTech Feature",
-    stamp: "Featured",
-    github: "https://github.com/Kasfia-Mostafa/MediMeet_Doctor_Appointment_System",
-    live: "https://medi-meet-lac.vercel.app/",
-    thumb: "https://i.ibb.co.com/KxRL963x/Screenshot-2026-06-12-172542.png",
-    size: "fullpage",
-    hasCircle: true,
-  },
-  {
-    title: "Beautify - E-commerce platform for skincare and beauty products",
-    subtitle: "Immersive product browsing with multi-role ecosystem",
-    stacks: "React, Node.js, Express.js, MongoDB, Tailwind CSS",
-    description:
-      "Beautify is a modern e-commerce platform for transformative skincare and beauty products, featuring a full-featured admin dashboard, blog, and user management system. Built with the MERN stack, the platform facilitates interactions between buyers, sellers, and administrators.",
-    edition: "Beauty Tech Bulletin",
-    stamp: "Top Story",
-    github: "https://github.com/Kasfia-Mostafa/Beautify",
-    live: "https://beautify-nine.vercel.app/",
-    thumb: "https://i.ibb.co.com/VFgcgdg/beautify.png",
-    hasCircle: true,
-  },
-  {
-    title: "Hirrd - Job Post and Hiring Website",
-    subtitle: "NEXTJS hiring workflow with secure role-based operations",
-    stacks: "Next.js, Node.js, Express.js, Superbase, JWT",
-    description:
-      "A full-stack NEXTJS web application with responsive Next.js frontend, secure Node.js/Express REST APIs, MongoDB persistence, authentication, and complete CRUD-based recruitment workflows.",
-    edition: "Career Tech Bulletin",
-    stamp: "Press Pick",
-    github: "https://github.com/Kasfia-Mostafa/Hirrd",
-    live: "https://hirrd-alpha.vercel.app/",
-    thumb: "https://i.ibb.co.com/Tx4T7pT5/hirrd.jpg",
-    size: "quarter",
-    hasCircle: false,
-  },
-
-  {
-    title: "Astro Learn - Online Learning Platform",
-    subtitle: "Immersive learning experience ecosystem",
-    stacks: "React, Node.js, Express.js, MongoDB, Tailwind CSS",
-    description:
-      "A modern, responsive online learning platform built with React, Vite, and Tailwind CSS. Astro Learn provides an intuitive interface for discovering and exploring courses across various categories.",
-    edition: "Education Tech Bulletin",
-    stamp: "Top Story",
-    github: "https://github.com/Kasfia-Mostafa/Astro_Learn",
-    live: "https://astro-learn-sigma.vercel.app/",
-    thumb: "https://i.ibb.co.com/zWtrMZB3/astro.png",
-    hasCircle: true,
-  },
-];
-
-const certificates = [
-  {
-    title: "Web Development",
-    issuer: "Programming Hero",
-    year: "2024",
-    link: "https://drive.google.com/file/d/1CxOxFqyNiEXf1efNyoAWg4tf9yYa800l/view?usp=sharing",
-    image: "https://i.ibb.co.com/p6M7YYfX/Web-Development.jpg",
-  },
-  {
-    title: "NASA Space App Challenge",
-    issuer: "NASA International Space Apps Challenge",
-    year: "2024",
-    link: "https://drive.google.com/file/d/1-t_aHGdTIjCrGe1HQz4wmoFEy97I4yVi/view?usp=sharing",
-    image: "https://i.ibb.co.com/gMwM28W9/NASA-Space-App-Challenge.jpg",
-  },
-  {
-    title: "Web Development Hackathon",
-    issuer: "HackCSB",
-    year: "2024",
-    link: "https://drive.google.com/file/d/1WsBiwEVKI_2jtz30GD5oQ6t1vznLXRCk/view?usp=sharing",
-    image: "https://i.ibb.co.com/7dsXN66F/Web-Development-Hackathon.jpg",
-  },
-  {
-    title: "Python With Machine Learning",
-    issuer: "ICT Division of Bangladesh",
-    year: "2025",
-    link: "https://drive.google.com/file/d/1JoTQ3bAxXwF96EL3NeFhnpi4JqWjP4Mj/view?usp=sharing",
-    image: "https://i.ibb.co.com/FLmhy9nM/Python-With-Machine-Learning.jpg",
-  },
-];
-
-const researchPapers = [
-  {
-    title:
-      "A Hybrid Deep Learning Framework for Robust Detection of Rice Leaf Diseases Using CNN and Transformer-Based Attention",
-    abstract:
-      "This publication proposes a hybrid deep learning pipeline that combines convolutional feature extraction with transformer-based attention to improve disease detection reliability in rice leaves. The framework targets robust classification under diverse field-image conditions and supports practical decision-making for agricultural monitoring workflows.",
-    authors: "Kasfia Mostafa, Faisal Imran, Maliha Anjum, Sazibul Islam Siam",
-    manuscript: "https://ieeexplore.ieee.org/document/11171957",
-    label: "READ FULL MANUSCRIPT",
-  },
-  {
-    title:
-      "A Data-Driven Approach to Customer Churn Prediction in E-Commerce Business Using Machine Learning",
-    abstract:
-      "This study presents a machine-learning approach for identifying high-risk churn segments in e-commerce environments. The proposed framework emphasizes feature-driven prediction and actionable retention insights, enabling organizations to improve customer continuity through evidence-based intervention strategies.",
-    authors: "Sazibul Islam Siam, Faisal Imran, Maliha Anjum, Kasfia Mostafa",
-    manuscript: "https://ieeexplore.ieee.org/document/11172144",
-    label: "READ FULL MANUSCRIPT",
-  },
-];
-
 const tickerItems = [
   "AVAILABLE FOR HIRE",
   "MERN FULL STACK DEVELOPER",
@@ -205,9 +51,6 @@ const tickerItems = [
   "REACT · NEXT · TYPESCRIPT · NODE · MONGODB",
   "OPEN TO REMOTE OPPORTUNITIES",
 ];
-
-const projectImageFallback =
-  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23efe8d8'/%3E%3Cstop offset='100%25' stop-color='%23d8d0bd'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g)'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' fill='%23333' font-size='44' font-family='Georgia, serif'%3EProject Image%3C/text%3E%3C/svg%3E";
 
 const specialisms = [
   {
