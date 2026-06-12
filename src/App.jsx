@@ -785,7 +785,8 @@ function App() {
                 <div className="stamp-row">
                   <a
                     href={resumePdf}
-                    download="Kasfia_Mostafa.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="Documents-btn"
                   >
                     <span className="folderContainer" aria-hidden="true">
@@ -1201,9 +1202,9 @@ function App() {
                 <div className="press-pass">
                   <div className="press-pass__copy">
                     <p className="board-label">Official Press Credentials</p>
-                    <a href={resumePdf} download="Kasfia_Mostafa.pdf" className="release-sheet">
+                    <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="release-sheet">
                       <DocIcon />
-                      FOR IMMEDIATE RELEASE: DOWNLOAD RESUME
+                      FOR IMMEDIATE RELEASE: VIEW RESUME
                     </a>
                   </div>
                 </div>
