@@ -14,6 +14,8 @@ import {
   SiGithub,
 } from "react-icons/si";
 import "./App.css";
+import resumePdf from "./assets/Kasfia_Mostafa.pdf";
+
 
 const deskSignals = [
   {
@@ -936,7 +938,8 @@ function App() {
 
                 <div className="stamp-row">
                   <a
-                    href="https://drive.google.com/file/d/190Li3cN7m-tOTGblSmtx_RLWuKbYhnvs/view?usp=sharing"
+                    href={resumePdf}
+                    download="Kasfia_Mostafa.pdf"
                     className="Documents-btn"
                   >
                     <span className="folderContainer" aria-hidden="true">
@@ -1352,7 +1355,7 @@ function App() {
                 <div className="press-pass">
                   <div className="press-pass__copy">
                     <p className="board-label">Official Press Credentials</p>
-                    <a href="/src/assets/Kasfia_Mostafa.pdf" className="release-sheet">
+                    <a href={resumePdf} download="Kasfia_Mostafa.pdf" className="release-sheet">
                       <DocIcon />
                       FOR IMMEDIATE RELEASE: DOWNLOAD RESUME
                     </a>
