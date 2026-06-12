@@ -89,7 +89,7 @@ const projects = [
   {
     title: "MediMeet - Healthcare Platform",
     subtitle: "Patient registration and appointment lifecycle management",
-    stacks: "React, Tailwind CSS Node.js, Express.js, Mongodb",
+    stacks: "React, Tailwind CSS, Node.js, Express.js, Mongodb",
     description:
       "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with Email notifications, all built using MERN Stack",
     edition: "HealthTech Feature",
